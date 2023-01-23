@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando JS e HTML</title>
+</head>
+
+<link rel="stylesheet" href="teste_server.css">
+
+<body>
+    <h2>Cadastramento de usuário padrão.</h2>
+    
+    <row>
+        <div>
+            <form method="get" action="envio_dados.php" style="margin: 0px 0px 5px 0px">
+                
+                <input type="text" name="nome" placeholder="digite seu Nome aqui">
+                <input type="e-mail" name="email" placeholder="Digite seu e-mail">
+                <input type="submit" name="enviar" value="Enviar"> 
+                
+                <div style="margin: 10px 5px 10px 5px;">
+
+                    <label for="user">Data Início: </label>
+                    <input type="date" name="dataInicio">
+                    <label for="user">Data Fim: </label>
+                    <input type="date" name="dataFim" >
+        
+                </div>
+        
+            </form>
+        </div>
+        
+        
+        <div style="margin-top: 15px;">
+            <textarea name="textoSolicita" id="txt01" cols="50" rows="15"></textarea>
+            <button class="botaoForm" ><a target="_blank" href='https://www.alura.com.br/'>Enviar</a> </button>
+        </div>
+
+
+        
+    </row>
+
+    <script>
+
+       // var entradaNome = prompt("Informe seu nome : ");
+
+       // alert("Testando o HTML SERVER do VISUAL CODE!");
+
+    </script>
+</body>
+</html>
